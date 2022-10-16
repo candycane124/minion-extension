@@ -1,19 +1,17 @@
-const CSS = 'body { border: 10px solid #0A75BC; color: #FCE029; font-family: sans-serif;';
-const TITLE_APPLY = "Apply CSS";
-const TITLE_REMOVE = "Remove CSS";
+const CSS = 'body { border: 20px solid #0A75BC; color: #FCE029; font-family: sans-serif; } div { background-color: #FCE029; weight: bold; color: #0A75BC; }';
+const TITLE_APPLY = "make colour better";
+const TITLE_REMOVE = "i am colourblind";
 const APPLICABLE_PROTOCOLS = ["http:", "https:"];
 
 function toggleCSS(tab) {
 
   function gotTitle(title) {
     if (title === TITLE_APPLY) {
-      browser.pageAction.setIcon({tabId: tab.id, path: "icons/def.png"});
-      browser.pageAction.setTitle({tabId: tab.id, title: TITLE_REMOVE});
-      browser.tabs.insertCSS({code: CSS});
+        browser.pageAction.setTitle({tabId: tab.id, title: TITLE_REMOVE});
+        browser.tabs.insertCSS({code: CSS});
     } else {
-      browser.pageAction.setIcon({tabId: tab.id, path: "icons/def.png"});
-      browser.pageAction.setTitle({tabId: tab.id, title: TITLE_APPLY});
-      browser.tabs.removeCSS({code: CSS});
+        browser.pageAction.setTitle({tabId: tab.id, title: TITLE_APPLY});
+        browser.tabs.removeCSS({code: CSS});
     }
   }
 
@@ -28,7 +26,6 @@ function protocolIsApplicable(url) {
 
 function initializePageAction(tab) {
   if (protocolIsApplicable(tab.url)) {
-    browser.pageAction.setIcon({tabId: tab.id, path: "icons/def.png"});
     browser.pageAction.setTitle({tabId: tab.id, title: TITLE_APPLY});
     browser.pageAction.show(tab.id);
   }
