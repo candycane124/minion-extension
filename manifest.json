@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "MINION",
+    "author": "angela",
+    "version": "1.0",
+    "description": "don't look now...",
+    "icons": {
+        "128": "./assets/logo.png"
+    },
+    "browser_action": {
+        "default_icon": "./assets/logo.png",
+        "default_popup": "./popup.html"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "all_frames": true,
+        "js": ["main.js"]
+    }],
+    "web_accessible_resources": ["./assets/minion1.png","./assets/minion2.jpg","./assets/minion3.jpg","./assets/minion4.jpg","./assets/minion5.jpg","./assets/minion6.jpg","./assets/minion7.jpg"]
+}
