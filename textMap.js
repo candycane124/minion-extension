@@ -63,6 +63,7 @@ dictionary.set('all', 'tadda');
 dictionary.set('are', 'nama');
 dictionary.set('as', 'sim');
 dictionary.set('said', 'bap');
+dictionary.set("!", "!!!");
 
 
 let tempArray = Array.from(dictionary);

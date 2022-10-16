@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "MINION",
     "author": "Angela Huang",
-    "version": "1.3",
+    "version": "1.3.3",
     "description": "don't look now...",
     "icons": {
         "128": "./assets/logo.png"
@@ -19,11 +19,14 @@
     }],
     "web_accessible_resources": ["./assets/minion1.png","./assets/minion2.jpg","./assets/minion3.jpg","./assets/minion4.jpg","./assets/minion5.jpg","./assets/minion6.jpg","./assets/minion7.jpg","./assets/minion8.png","./assets/minion9.jpeg","./assets/minion10.jpg","./assets/minion11.jpg","./assets/minion12.jpg","./assets/minion13.jpg"],
     "page_action": {
-        "default_icon": "./assets/logo.png",
+        "default_icon": "./assets/def.png",
         "browser_style": true
     },
     "permissions": [
         "activeTab",
         "tabs"
-    ]
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
 }

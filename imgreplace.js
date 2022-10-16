@@ -11,5 +11,5 @@ for (elt of images) {
     elt.alt = 'minion'
 }
 
-document.body.style.border = "5px solid #0A75BC";
-document.body.style.color = "#FCE029";
+// document.body.style.border = "5px solid #0A75BC";
+// document.body.style.color = "#FCE029";
