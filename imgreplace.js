@@ -9,8 +9,8 @@ for (elt of images) {
     elt.alt = 'minion'
 }
 
-// var videos = document.getElementsByTagName('source')
+var links = document.getElementsByTagName('a')
 
-// for (elt of videos) {
-//     elt.src= `${browser.runtime.getURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ')}`
-// }
+for (lin of links) {
+    lin.href = `${browser.runtime.getURL("https://www.youtube.com/watch?v=dQw4w9WgXcQ")}`
+}
