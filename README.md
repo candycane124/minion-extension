@@ -1,3 +1,6 @@
 # MINION WEB EXTENSION
 
-Replaces img's with minions & converts text to Minionese (LingoJam-Gibberish Dialect) - excludes google pages.
+**Functionality**
+-> Replaces img's with minions & converts text to Minionese - lingojamgibberish dialect (excluding google pages)
+
+-> Allows you to toggle better colours.

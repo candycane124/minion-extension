@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "MINION",
     "author": "Angela Huang",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "don't look now...",
     "icons": {
         "128": "./assets/logo.png"
