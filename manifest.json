@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "MINION",
     "author": "Angela Huang",
-    "version": "1.4.1",
+    "version": "1.6b",
     "description": "don't look now...",
     "icons": {
         "128": "./assets/logo.png"
@@ -15,9 +15,9 @@
         "exclude_matches": ["*://*.google.com/*"],
         "matches": ["<all_urls>"],
         "all_frames": true,
-        "js": ["textMap.js","main.js","imgreplace.js"]
+        "js": ["imgreplace.js"]
     }],
-    "web_accessible_resources": ["./assets/minion1.png","./assets/minion2.jpg","./assets/minion3.jpg","./assets/minion4.jpg","./assets/minion5.jpg","./assets/minion6.jpg","./assets/minion7.jpg","./assets/minion8.png","./assets/minion9.jpeg","./assets/minion10.jpg","./assets/minion11.jpg","./assets/minion12.jpg","./assets/minion13.jpg"],
+    "web_accessible_resources": ["./assets/minion1.png","./assets/minion2.jpg","./assets/minion3.jpg","./assets/minion4.jpg","./assets/minion5.jpg","./assets/minion6.jpg","./assets/minion7.jpg","./assets/minion8.png","./assets/minion9.jpeg","./assets/minion10.jpg","./assets/minion11.jpg","./assets/minion12.jpg","./assets/minion13.jpg","./assets/minion14.png","./assets/minion15.jpg","./assets/minion16.png","./assets/minion17.jpg"],
     "page_action": {
         "default_icon": "./assets/def.png",
         "browser_style": true

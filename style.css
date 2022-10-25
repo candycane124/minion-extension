@@ -3,6 +3,10 @@ body {
     font-family: sans-serif;
 }
 
+span {
+    color: white;
+}
+
 .yellow {
     color: #FCE029;
 }

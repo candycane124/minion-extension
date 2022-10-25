@@ -1,4 +1,4 @@
-const CSS = 'div { background-color: #FCE029; color: #0A75BC; border-radius: 5px } h1 { font-weight: bold, color: #0A75BC; background-color: #949699; } body { border: 20px solid #0A75BC; color: #FCE029; font-family: sans-serif; }';
+const CSS = 'div { background-color: #FCE029; color: #0A75BC; border-radius: 5px } h1 { font-weight: bold, color: #0A75BC; background-color: #949699; } span { color: #0A75BC; } body { border: 20px solid #0A75BC; color: #FCE029; font-family: sans-serif; }';
 const TITLE_APPLY = "make colour better";
 const TITLE_REMOVE = "i am colourblind";
 const APPLICABLE_PROTOCOLS = ["http:", "https:"];
