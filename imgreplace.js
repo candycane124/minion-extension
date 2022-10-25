@@ -8,9 +8,3 @@ for (elt of images) {
     elt.srcset = `${browser.runtime.getURL(imgReplacement)}`
     elt.alt = 'minion'
 }
-
-var links = document.getElementsByTagName('a')
-
-for (lin of links) {
-    lin.href = `${browser.runtime.getURL("https://www.youtube.com/watch?v=dQw4w9WgXcQ")}`
-}
