@@ -2,7 +2,7 @@
 
 Firefox web extension, manifest version 2
 
-**Functionality**
+## Functionality
 
--> Replaces img's with minions, excluding google pages <br>
--> Allows you to toggle better colours
+* Replaces img's with minions, excluding google pages <br>
+* Allows you to toggle better colours
